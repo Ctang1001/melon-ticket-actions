@@ -3,7 +3,7 @@ description: 'GitHub action that notifies ticket availability'
 author: 'MooYeol Prescott Lee'
 inputs:
   product-id:
-    description: 208966
+    description: 209062
     required: true
   schedule-id:
     description: 100001
