@@ -3,21 +3,21 @@ description: 'GitHub action that notifies ticket availability'
 author: 'MooYeol Prescott Lee'
 inputs:
   product-id:
-    description: 'Product ID of Target Ticket'
+    description: 208966
     required: true
   schedule-id:
-    description: 'Schedule ID of Target Ticket'
+    description: 100001
     required: true
   seat-id:
-    description: 'Seat Id of Target Ticket'
+    description: 1_0
     required: true
   slack-incoming-webhook-url:
-    description: 'URL of Slack Incoming Webhook'
+    description: https://hooks.slack.com/services/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
     required: true
   message:
     description: 'Message'
     required: false
-    default: '티켓사세요'
+    default: 'Buy Ticket'
 runs:
   using: 'docker'
   image: 'Dockerfile'
