@@ -19,4 +19,4 @@ jobs:
         if: github.event_name == 'push'
         run: npx semantic-release --ci
         env:
-          GH_TOKEN: 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
+          NPM_TOKEN: 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
