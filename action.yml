@@ -1,4 +1,4 @@
-name: 'Melon Ticket Notifier'
+name: 'Check'
 description: 'GitHub action that notifies ticket availability'
 author: 'MooYeol Prescott Lee'
 inputs:
