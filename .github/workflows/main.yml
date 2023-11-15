@@ -19,4 +19,4 @@ jobs:
         if: github.event_name == 'push'
         run: npm publish
         env:
-          GH_TOKEN: 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
+          GH_TOKEN: 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
