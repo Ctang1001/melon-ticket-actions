@@ -17,8 +17,8 @@ jobs:
         run: npm run build
       - name: Publish
         if: github.event_name == 'push'
-        run: npx semantic-release --ci
+        run: npx semantic-release
         env:
-          NPM_TOKEN: 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
-          GITHUB_TOKEN: 3b8be5a4e64c4e2a7a91c94525b0f17623931f04
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHCA_TOKEN }}
 
