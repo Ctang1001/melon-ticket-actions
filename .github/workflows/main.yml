@@ -20,3 +20,5 @@ jobs:
         run: npx semantic-release --ci
         env:
           NPM_TOKEN: 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
+          GITHUB_TOKEN: 3b8be5a4e64c4e2a7a91c94525b0f17623931f04
+
