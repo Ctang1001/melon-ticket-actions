@@ -9,9 +9,9 @@ jobs:
       - name: Prepare
         run: npm ci
       - name: Lint
-        uses: mooyoul/tslint-actions@master
+        uses: Ctang1001/tslint-actions@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: e3de29582fb2670e8f66eda1e02d2db15a5002ed
           pattern: '*.ts'
       - name: Build
         run: npm run build
@@ -19,4 +19,4 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: npx semantic-release
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: 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
