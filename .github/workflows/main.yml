@@ -11,7 +11,7 @@ jobs:
       - name: Lint
         uses: mooyoul/tslint-actions@master
         with:
-          token: e3de29582fb2670e8f66eda1e02d2db15a5002ed
+          token: ${{ secrets.GITHUB_TOKEN }}
           pattern: '*.ts'
       - name: Build
         run: npm run build
