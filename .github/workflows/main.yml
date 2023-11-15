@@ -9,7 +9,7 @@ jobs:
       - name: Prepare
         run: npm ci
       - name: Lint
-        uses: Ctang1001/tslint-actions@master
+        uses: mooyoul/tslint-actions@master
         with:
           token: e3de29582fb2670e8f66eda1e02d2db15a5002ed
           pattern: '*.ts'
