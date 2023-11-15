@@ -1,3 +1,26 @@
+# 1.0.0 (2023-11-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @actions/core to v1.10.0 ([6380a5a](https://github.com/Ctang1001/melon-ticket-actions/commit/6380a5abb1bf839462099f9576016234fdc20fd1))
+* **deps:** update dependency @actions/core to v1.10.1 ([70266c5](https://github.com/Ctang1001/melon-ticket-actions/commit/70266c545b30f32b881c85a9b0c04cf18da7bca5))
+* **deps:** update dependency @actions/core to v1.2.6 [security] ([b646738](https://github.com/Ctang1001/melon-ticket-actions/commit/b646738f74a696ede2941053319b788ba00a055f))
+* **deps:** update dependency axios to ^0.20.0 ([bb64155](https://github.com/Ctang1001/melon-ticket-actions/commit/bb64155bc60e749770e260674614105b7c334e13))
+* **deps:** update dependency axios to ^0.21.0 ([95c7199](https://github.com/Ctang1001/melon-ticket-actions/commit/95c7199a8f2528b62c721562a8f1ff3b467c9d22))
+* **deps:** update dependency axios to ^0.24.0 ([71b9fe6](https://github.com/Ctang1001/melon-ticket-actions/commit/71b9fe6ece93e9996a99f49d4a2356977167e39b))
+* **deps:** update dependency axios to ^0.25.0 ([71f790e](https://github.com/Ctang1001/melon-ticket-actions/commit/71f790e8ed33bde762c7dce57e65060b312ff768))
+* **deps:** update dependency axios to ^0.27.0 ([c87cbd5](https://github.com/Ctang1001/melon-ticket-actions/commit/c87cbd52c81ebc015581f1d38723af5285da47a6))
+* fix invalid method ([e743bd5](https://github.com/Ctang1001/melon-ticket-actions/commit/e743bd57f1ae77855ccd1aff1121efdde4467ad3))
+* fix missing querystring indicator ([874e35a](https://github.com/Ctang1001/melon-ticket-actions/commit/874e35a14292ea6734197f4f41c97c878847c930))
+* remove hard-coded product url ([5891c4a](https://github.com/Ctang1001/melon-ticket-actions/commit/5891c4aa4a1f270b6ad237672544e8b397d5fb42))
+
+
+### Features
+
+* initial commit ([b0ef7a7](https://github.com/Ctang1001/melon-ticket-actions/commit/b0ef7a7b3a1fda287de14d87a0e5c5bd1abeedde))
+* support custom message ([e6db3f4](https://github.com/Ctang1001/melon-ticket-actions/commit/e6db3f496881ecf2b04e92d1862073620d53ae17))
+
 ## [1.1.5](https://github.com/mooyoul/melon-ticket-actions/compare/v1.1.4...v1.1.5) (2022-01-18)
 
 
