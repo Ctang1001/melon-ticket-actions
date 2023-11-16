@@ -8,7 +8,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Check Tickets
-        uses: Ctang1001/melon-ticket-actions@v1.1.0
+        uses: Ctang1001/melon-ticket-actions@v1.0.0
         with:
           product-id: 204755
           schedule-id: 100001
