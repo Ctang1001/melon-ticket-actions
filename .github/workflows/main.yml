@@ -1,3 +1,4 @@
+
 name: workflow
 on: push
 jobs:
@@ -15,9 +16,9 @@ jobs:
           pattern: '*.ts'
       - name: Build
         run: npm run build
-      - name: Publish
-        if: github.event_name == 'push'
-        run: npx semantic-release
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GHCA_TOKEN }}
+    //  - name: Publish
+       // if: github.event_name == 'push'
+    //    run: npx semantic-release
+   //     env:
+    //      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    //      GITHUB_TOKEN: ${{ secrets.GHCA_TOKEN }}
